@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="10dp">
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#BF1005">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:text="EventTitle"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_gravity="center"
+			android:textColor="#FFFFFF"
+			android:id="@+id/tvEventTitle"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#B10707">
+
+		<ImageView
+			android:src="@drawable/calendar"
+			android:layout_marginLeft="10dp"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="12-29-18 10:37 AM"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_gravity="center"
+			android:textColor="#30E759"
+			android:id="@+id/tvEventDate"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NPC Student Planner</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="about">
+		Developed by the Students in Integrated Computer Society(ICS) in Navotas Polytechnic College.
+		
+		This application is developed to help the students of Navotas Polytechnic College in organzing 
+		notes,events inside the institution.
+		
+		
+	</string>
+	<string name="Developers">
+		Florenz Ramos 
+		Charlie S. Binavice
+		Deby Jane Atay
+		Marilou Valles
+		Angel Batobalonos
+		Patricia Esquilona
+		Kimberly Concepion
+		Marie Maver Itturalde
+		Jenny Pascual
+		Spencer Flores
+		Christian Agustin
+		Hanna Ferrine Ching
+		Cherrilyn Sable
+		Corrine Tampus
+		Jovelyn Brillantes
+	</string>
+	
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#FEFEFE"
+	android:gravity="center">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<ImageView
+			android:layout_height="100dp"
+			android:layout_width="100dp"
+			android:src="@drawable/npclogo"
+			android:layout_gravity="center">
+
+		</ImageView>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Navotas Polytechnic College"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:layout_marginTop="8dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="STUDENT PLANNER"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="5dp"
+			android:textColorHighlight="#DD190C"
+			android:textColor="#D6190C"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_gravity="center">
+
+		<ImageView
+			android:src="@drawable/note_img"
+			android:layout_height="90dp"
+			android:layout_width="90dp"
+			android:layout_gravity="center"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

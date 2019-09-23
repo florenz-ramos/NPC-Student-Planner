@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#E8CCCA">
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/subToolbar"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+		android:background="#BF1005"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="text"
+		android:ems="10"
+		android:layout_width="match_parent"
+		android:hint="SUBJECT CODE"
+		app:backgroundTint="#BF1005"
+		android:id="@+id/etSubCode"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textMultiLine"
+		android:ems="10"
+		android:layout_width="match_parent"
+		android:hint="SUBJECT NAME"
+		app:backgroundTint="#BF1005"
+		android:id="@+id/etSubname"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="number"
+		android:ems="10"
+		android:layout_width="match_parent"
+		android:hint="UNITS"
+		app:backgroundTint="#BF1005"
+		android:id="@+id/etUnits"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:layout_width="match_parent"
+		android:hint="ROOM"
+		app:backgroundTint="#BF1005"
+		android:id="@+id/etRoom"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:layout_width="match_parent"
+		android:hint="PROFESSOR"
+		app:backgroundTint="#BF1005"
+		android:id="@+id/etProfessor"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:text="Time From:"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			app:backgroundTint="#BF1005"/>
+
+		<EditText
+			android:layout_height="match_parent"
+			android:ems="10"
+			android:layout_width="match_parent"
+			android:id="@+id/etTimeFrom"
+			app:backgroundTint="#BF1005"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:text="Time To:"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:gravity="center"
+			app:backgroundTint="#BF1005"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:layout_width="match_parent"
+			app:backgroundTint="#BF1005"
+			android:id="@+id/etTimeTo"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:ems="10"
+			android:layout_width="match_parent"
+			android:hint="DAY(S)"
+			app:backgroundTint="#BF1005"
+			android:id="@+id/etDays"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="ADD SUBJECT"
+			android:layout_width="match_parent"
+			android:background="#BF1005"
+			android:textColor="#FFFFFF"
+			android:id="@+id/btnAdd"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

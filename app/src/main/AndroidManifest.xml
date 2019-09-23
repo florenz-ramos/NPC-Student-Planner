@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.npc.dev.app" >
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	
+    <uses-permission android:name="android.permission.INTERNET" />
+<application
+        android:allowBackup="true"
+        android:icon="@drawable/npclogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       <activity android:name=".AboutActivity"/>
+       <activity
+	     android:name=".PersonalActivity"
+	     android:label="Personal Note" 
+	       />
+				<activity android:name=".NavActivity"
+					android:label="NPC Student Planner"/>
+				<activity android:name=".NoteActivity"
+					android:label="Add Note"/>
+			<activity android:name=".SubjectActivity"
+				android:label="Adding Subject"/>
+			<activity android:name=".EventActivity"
+				android:label="Adding Events"/>
+			<activity android:name=".ProfileActivity"
+				android:label="Setup Profile"/>
+			<activity android:name=".ProfessorActivity"
+				android:label="Add Professor"/>
+			
+    </application>
+
+</manifest>

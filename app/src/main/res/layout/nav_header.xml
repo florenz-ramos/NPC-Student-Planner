@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="192dp"
+	android:padding="16dp"
+	android:theme="@style/ThemeOverlay.AppCompat.Dark"
+	android:orientation="vertical"
+	android:gravity="bottom"
+	android:background="#C5180D">
+
+	<ImageView
+		android:layout_height="100dp"
+		android:layout_width="100dp"
+		android:src="@drawable/nav_icon"
+		android:id="@+id/navheaderImageView1"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Florenz Ramos"
+		android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+		android:textColor="#FFFFFF"
+		android:textSize="20sp"
+		android:id="@+id/txtFullname"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Bachelor of Science in Computer Science"
+		android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+		android:textColor="#FFFFFF"
+		android:id="@+id/txtCourse"/>
+
+</LinearLayout>
+

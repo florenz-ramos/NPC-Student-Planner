@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+	<item android:title="School">
+		<menu>
+			<group android:checkableBehavior="single">        
+			  <item            
+					android:id="@+id/nav_note"            
+					android:icon="@drawable/note_img"            
+					android:title="Add Note" />        
+		    <item            
+					android:id="@+id/nav_subject"            
+					android:icon="@drawable/image_1"            
+					android:title="Add Subject" />       
+		    
+			</group>
+		</menu>
+
+	</item>
+	<item android:title="Personal">
+		<menu>
+			<group android:checkableBehavior="single">
+				<item
+					android:id="@+id/nav_event"            
+					android:icon="@drawable/calendar"            
+				  android:title="Add Events"/>
+				<item
+					android:id="@+id/nav_pnote"            
+					android:icon="@drawable/image_3"            
+				  android:title="Personal Notes"/>
+			</group>
+		</menu>
+	</item>
+	<item android:title="">
+		<menu>
+			<group android:checkableBehavior="single">
+				<item
+					android:id="@+id/nav_about"            
+					android:icon="@drawable/calendar"            
+				  android:title="About"/>
+				<item
+					android:id="@+id/nav_exit"            
+					android:icon="@drawable/image_3"            
+				  android:title="Exit"/>
+			</group>
+		</menu>
+	</item>
+
+	
+
+</menu>
